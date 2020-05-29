@@ -1,0 +1,6 @@
+grocery-bill:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:9090,localhost:9091,localhost:9092 #deploy ws in these ports
+    ServerListRefreshInterval: 15000

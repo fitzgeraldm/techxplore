@@ -5,7 +5,7 @@ import com.acn.texchxplore.entity.Item;
 import com.acn.texchxplore.entity.ShoppingClerk;
 
 public class DiscountedBill extends GroceryBill {
-	
+
 	public DiscountedBill() {
 	}
 
@@ -23,7 +23,7 @@ public class DiscountedBill extends GroceryBill {
 				total += item.getPrice() - (item.getPrice() * (item.getDiscountPercentage() / 100));
 			} else {
 				total += item.getPrice();
-				
+
 			}
 
 		}
